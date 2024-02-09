@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippines Image Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      <h2>Clickable Map of the Philippines</h2>
+      <h1></h1>
+
+<img id="philippinesMap" src="Philippine_map.png" alt="Philippines Map" usemap="#philippinesmap">
+
+<map name="philippinesmap">
+    <area target="_parent" shape="rect" coords="25,36,222,206" href="#" alt="Bolinao" data-region="bolinao">
+    <area target="_parent" shape="rect" coords="428,38,625,210" href="#" alt="Manila" data-region="manila">
+    <area target="_parent" shape="rect" coords="19,260,219,413" href="#" alt="Angeles City" data-region="angeles">
+    <area target="_parent" shape="rect" coords="555,225,776,413" href="#" alt="Leyte" data-region="leyte">
+    <area target="_parent" shape="rect" coords="33,464,218,626" href="#" alt="Bacolod City" data-region="bacolod city">
+    <area target="_parent" shape="rect" coords="314,375,534,566" href="#" alt="Iloilo City" data-region="iloilo city">
+    <area target="_parent" shape="rect" coords="206,664,391,821" href="#" alt="Cagayan de Oro" data-region="cagayan de oro">
+    <area target="_parent" shape="rect" coords="18,832,203,992" href="#" alt="Davao City" data-region="davao city">
+    <area target="_parent" shape="rect" coords="253,939,470,1124" href="#" alt="General Santos City" data-region="general santos city">
+</map>
+
+  <div class="fixed-box">
+    <div id="regionInfo">
+      <h3>Region Information:</h3>
+      <p>Select a region on the map to view information.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
